@@ -1,0 +1,5 @@
+n= input()
+G = input()
+if(G.count("D") > G.count("A")): print("Danik")
+elif(G.count("A") > G.count("D")): print("Anton")
+else: print("Friendship")
